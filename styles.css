@@ -14,20 +14,6 @@ body {
   padding: 2rem 1rem;
 }
 
-.ascii-bg {
-  position: fixed;
-  bottom: -20px;
-  right: -10px;
-  font-size: 18px;
-  line-height: 1.2;
-  color: #e8b88a;
-  opacity: 0.35;
-  pointer-events: none;
-  user-select: none;
-  z-index: 0;
-  white-space: pre;
-}
-
 #app {
   width: 100%;
   max-width: 680px;
