@@ -1,6 +1,6 @@
 const zones = [
-  { key: 'uk', label: 'London',       flag: '🇬🇧', tz: 'Europe/London',     abbr: 'GMT/BST' },
   { key: 'my', label: 'Kuala Lumpur', flag: '🇲🇾', tz: 'Asia/Kuala_Lumpur', abbr: 'MYT +8'  },
+   { key: 'uk', label: 'London',       flag: '🇬🇧', tz: 'Europe/London',     abbr: 'GMT/BST' },
   { key: 'ca', label: 'Toronto',      flag: '🇨🇦', tz: 'America/Toronto',   abbr: 'ET'       },
 ];
 
@@ -62,7 +62,7 @@ function render() {
       <div class="clock-tz">${z.abbr}</div>
       <div class="clock-time">${time}<span class="clock-period">${period}</span></div>
       <div class="clock-date">${formatDate(t)}</div>
-      ${isActive ? '<div class="active-badge">controlling ✏️</div>' : ''}
+      ${isActive ? '<div class="active-badge">Editing ✏️</div>' : ''}
     `;
 
     card.onclick = () => {
