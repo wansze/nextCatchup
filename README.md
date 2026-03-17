@@ -1,8 +1,6 @@
-# let's catch up please!! 🌍
+# Personal timezone tool 🌍
 
 My friends and I live in different timezones and I've forgotten catch up times because I mixed up the timezones.
-
-So this tool is to help with that.
 
 ---
 
