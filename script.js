@@ -1,6 +1,6 @@
 const zones = [
   { key: 'my', label: 'Kuala Lumpur', flag: '🇲🇾', tz: 'Asia/Kuala_Lumpur', abbr: 'MYT +8'  },
-   { key: 'uk', label: 'London',       flag: '🇬🇧', tz: 'Europe/London',     abbr: 'GMT/BST' },
+  { key: 'uk', label: 'London',       flag: '🇬🇧', tz: 'Europe/London',     abbr: 'GMT/BST' },
   { key: 'ca', label: 'Toronto',      flag: '🇨🇦', tz: 'America/Toronto',   abbr: 'ET'       },
 ];
 
