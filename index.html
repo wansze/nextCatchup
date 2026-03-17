@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Next catch up?</title>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+
+    <div class="header">
+      <h1>next catch up? 🎮</h1>
+      <p class="subtitle">pick a timezone, set a date and time, see what works.</p>
+    </div>
+
+    <div class="clock-grid" id="clockGrid"></div>
+
+    <div class="controls">
+      <div class="control-row">
+        <span class="control-label">Date</span>
+        <input type="date" id="datePicker" />
+        <button onclick="setNow()">Today</button>
+      </div>
+      <div>
+        <div class="control-row">
+          <span class="control-label">Time</span>
+          <input type="range" min="0" max="1439" step="1" id="slider" value="720" />
+        </div>
+        <div class="slider-ticks">
+          <span class="tick">12 AM</span>
+          <span class="tick">6 AM</span>
+          <span class="tick">12 PM</span>
+          <span class="tick">6 PM</span>
+          <span class="tick">11 PM</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
