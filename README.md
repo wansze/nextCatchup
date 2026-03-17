@@ -2,6 +2,8 @@
 
 My friends and I live in different timezones and I've forgotten catch up times because I mixed up the timezones.
 
+https://wansze.github.io/nextCatchup/
+
 ---
 
 ## what it does
